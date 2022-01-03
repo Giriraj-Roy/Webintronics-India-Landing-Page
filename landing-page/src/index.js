@@ -8,7 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <ContactBar/>
     <Navbar/>
-    {/* <App /> */}
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

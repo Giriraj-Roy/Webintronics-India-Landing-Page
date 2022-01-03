@@ -90,8 +90,6 @@
     top: 20px;
     border-radius: 0px;
     background-color: #FFFFFF;
-    
-
   }
   .rectInner{
     display: flex;
@@ -101,4 +99,18 @@
     border: solid red;
     border-radius: 0px;
     border-width: 7px;
+  }
+  .scooterImage{
+    display: flex;
+    position: relative;
+    top: 30vh;
+    margin: auto;
+  }
+  .details{
+     display: flex;
+     /* float: left; */
+  }
+  .description{
+    display: table;
+    float: right;
   }

@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import Details from './details/Details';
+import Scooter from './details/Scooter';
 
 const App = () => {
   return (
@@ -7,7 +9,8 @@ const App = () => {
       {/* <Routes>
 
       </Routes> */}
-      App Body
+      {/* <Scooter/> */}
+      <Details/>
     </React.Fragment>
   )
 }
