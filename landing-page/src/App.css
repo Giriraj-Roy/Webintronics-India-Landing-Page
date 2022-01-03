@@ -178,4 +178,34 @@
   .showDetails:hover{
     background-color: black;
     transition-duration: 0.8s;
+  }
+  .scooterMenu{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 15vh;
+    margin: 0px;
+    top: 21vh;
+    left: 0vh;
+    background-color: rgb(209, 205, 205);
+    color: gray;
+    font-size: 5vh;
+  }
+  .scooterMenu > *{
+    margin: auto;
+    padding: 0.2vh;
+    width: fit-content;
+  }
+  .scooterMenu > *:hover{
+    color: black;
+    content: "";
+    display: flex; 
+    width: 10vw;
+    border-bottom: 0.5vh solid rgba(255, 0, 0, 1);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    transition: ease-in 1s;
+    
   }  
