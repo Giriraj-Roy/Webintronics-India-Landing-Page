@@ -2,33 +2,33 @@
     z-index : 1;
     display: flex;
     align-items: center;
-    /* justify-content:center; */
     text-align: center;
     background-color: #000000;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 7vh;
     min-height: calc((57/1920)vw);
     min-width: fit-content;
     color: #FFFFFF;
     font-family: Poly;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 3vh;
     line-height: 119.5%;
     overflow: auto;
 }
 .contactPanel > *{
-    padding: 10px;
+    padding: 1.5vh;
 }
 .mediaArrow {
     border: solid red;
-    border-width: 0 2px 2px 0;
+    border-width: 0 0.5vh 0.5vh 0;
     display: inline-block;
-    padding: 3px;
-    margin-bottom: 5px;
+    padding: 0.5vh;
+    margin-bottom: 0.5vh;
+    margin-left: 1vh;
     transform: rotate(45deg);
   }
   .navbar{
@@ -37,18 +37,19 @@
     width: 100%;
     height: 15vh;
     left: 0px;
-    top: 50px;
+    top: 7vh;
     overflow-y: auto;    
     background: #0B090A;
     color: #FFFFFF;
     font-family: Poly;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 3vh;
     line-height: 119.5%;
   }
 .navPanel > *{
-    padding: 30px;
+    margin: 4vh;
+    padding: 0.2vh;
 }
   .navPanel{
     display: flex;
@@ -58,20 +59,48 @@
     left: 18vw ;
     margin: auto;
   }
+  .navAbout{
+    color: white;
+    border-bottom: 0.5vh solid rgba(255, 0, 0, 0);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    
+  }
+  .navAbout:hover{
+    /* border-bottom: red solid 2px; */
+    border-bottom: 0.5vh solid rgba(255, 0, 0, 1);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    transition: ease-in 0.2s;
+  }
+  .navStore{
+    color: white;
+    border-bottom: 0.5vh solid rgba(255, 0, 0, 0);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    
+  }
+  .navStore:hover{
+    /* border-bottom: red solid 2px; */
+    border-bottom: 0.5vh solid rgba(255, 0, 0, 1);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    transition: ease-in 0.2s;
+  }
+
   .btnDealer{
     background: #DB1218;
-    height: 40px ;
+    height: 6vh ;
     color: #FFFFFF;
     font-family: Poly;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 3vh;
     line-height: 119.5%;
     border: 0px;
-    margin-top: 20px;
-    margin-right: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px ;
+    margin-top: 3vh;
+    margin-right: 1.5vh;
+    padding: 1vh;
   }
   .btnDealer:hover{
     background-color: wheat;
@@ -83,8 +112,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    width: 50px;
+    height: 7.5vh;
+    width: 7.5vh;
     position: absolute;
     left: 7vw;
     top: 4vh;
@@ -93,12 +122,12 @@
   }
   .rectInner{
     display: flex;
-    height: 20px;
-    width: 20px;
+    height: 3vh;
+    width: 3vh;
     position: absolute;
     border: solid red;
     border-radius: 0px;
-    border-width: 7px;
+    border-width: 1vh;
   }
   .scooterImage{
     display: flex;
@@ -108,24 +137,18 @@
     top: 30vh;
     margin: auto;
     margin-left: 20%;
-    /* background: url('./details/74499-circle.gif'), url('./details/scooter.jpg'); */
   }
   .details{
      display: flex;
-     /* float: left; */
   }
   .description{
-    margin-left: 200px;
+    margin-left: 15vw;
     display: table;
     position: relative;
     top: 40vh;
     
   }
   .detailsHead{
-    /* width: 300vw; */
-    /* margin-top: 30vh;
-    width: 10vw;
-    min-width: 1vw; */
     width: 21vw;
     font-family: Playfair Display;
     font-style: normal;
@@ -149,7 +172,8 @@
     width: 12vw;
     border-width: 0px;
     font-size: 2.9vh;
-    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1vh;
   }
   .showDetails:hover{
     background-color: black;
