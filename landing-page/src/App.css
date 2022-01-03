@@ -87,7 +87,7 @@
     width: 50px;
     position: absolute;
     left: 7vw;
-    top: 20px;
+    top: 4vh;
     border-radius: 0px;
     background-color: #FFFFFF;
   }
@@ -103,14 +103,55 @@
   .scooterImage{
     display: flex;
     position: relative;
+    width: 50vw;
+    height: fit-content;
     top: 30vh;
     margin: auto;
+    margin-left: 20%;
+    /* background: url('./details/74499-circle.gif'), url('./details/scooter.jpg'); */
   }
   .details{
      display: flex;
      /* float: left; */
   }
   .description{
+    margin-left: 200px;
     display: table;
-    float: right;
+    position: relative;
+    top: 40vh;
+    
   }
+  .detailsHead{
+    /* width: 300vw; */
+    /* margin-top: 30vh;
+    width: 10vw;
+    min-width: 1vw; */
+    width: 21vw;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8vh;
+    line-height: 119.5%;
+    color: #000000;
+  }
+  .detailsDescribed{
+    width: 30vw;
+    font-family: Poly;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.8vh;
+    line-height: 119.5%;
+    text-align: justify;
+  }
+  .showDetails{
+    background-color: #DB1218;
+    color: white;
+    width: 12vw;
+    border-width: 0px;
+    font-size: 2.9vh;
+    padding: 5px;
+  }
+  .showDetails:hover{
+    background-color: black;
+    transition-duration: 0.8s;
+  }  

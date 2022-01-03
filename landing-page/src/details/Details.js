@@ -6,12 +6,13 @@ const Details = () => {
         <div className='details'>
             <Scooter/>
             <div className='description'>
-                <h1>A neat 
+                <div className='detailsHead'>A neat 
                 headline 
-                comes here !</h1>
-                
-                A neat sample text to come here super soon. Till then admire the authentic and delightful User Interface Design of the Website. We are glad you came here , thanks for visiting . 
-                <button>Show Details</button>    
+                comes here !</div> 
+                <br/>               
+                <div className='detailsDescribed'>A neat sample text to come here super soon. Till then admire the authentic and delightful User Interface Design of the Website. We are glad you came here , thanks for visiting . </div>
+                <br/>
+                <button className='showDetails'>Show Details</button>    
             </div>
         </div>
     )
