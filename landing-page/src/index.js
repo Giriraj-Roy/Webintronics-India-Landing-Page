@@ -7,8 +7,8 @@ import App from './App';
 ReactDOM.render(
   <React.StrictMode>
     <ContactBar/>
-    <Navbar/>
-    <App />
+    {/* <Navbar/> */}
+    {/* <App /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

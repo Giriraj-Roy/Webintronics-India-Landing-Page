@@ -1,32 +1,33 @@
 .contactBar{
+    z-index : 1;
     display: flex;
+    align-items: center;
+    /* justify-content:center; */
+    text-align: center;
     background-color: #000000;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 57px;
+    height: 50px;
+    min-height: calc(width *(57/1920));
     min-width: fit-content;
     color: #FFFFFF;
     font-family: Poly;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 119.5%;
-
+    overflow: auto;
 }
-.contactSupport{
-    display: flex;
-    padding: 20px;
-    padding-left: 100px;
-    
-    
+.contactPanel > *{
+    padding: 10px;
 }
-.contactTestRide{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    color: #FF0007;
-    margin: auto;
-    
-}
+.mediaArrow {
+    border: solid red;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 5px;
+    transform: rotate(45deg);
+  }
