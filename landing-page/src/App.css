@@ -134,18 +134,20 @@
     position: relative;
     width: 50vw;
     height: fit-content;
-    top: 30vh;
-    margin: auto;
+    /* top: 30vh; */
+    /* margin: auto; */
     margin-left: 20%;
   }
   .details{
      display: flex;
+     position: relative;
+     top: 30vh;
   }
   .description{
     margin-left: 15vw;
     display: table;
     position: relative;
-    top: 40vh;
+    top: 10vh;
     
   }
   .detailsHead{
@@ -182,13 +184,13 @@
   .scooterMenu{
     display: flex;
     position: relative;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     width: 100vw;
     height: 15vh;
     margin: 0px;
     top: 21vh;
-    left: 0vh;
+    left: 0px;
     background-color: rgb(209, 205, 205);
     color: gray;
     font-size: 5vh;
@@ -200,12 +202,19 @@
   }
   .scooterMenu > *:hover{
     color: black;
-    content: "";
-    display: flex; 
-    width: 10vw;
     border-bottom: 0.5vh solid rgba(255, 0, 0, 1);
     -webkit-background-clip: padding-box; /* for Safari */
     background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
-    transition: ease-in 1s;
+    transition: ease-in 0.1s;
     
-  }  
+  } 
+.footer > *{
+  display: inline-flex;
+  position: relative;
+  top: 33vh;
+  left: 50vw;
+  border: 0.6vw solid #D3D3D3;
+  border-radius: 1vw;
+  background-color: #D3D3D3;
+  margin: 0.5vw;
+}

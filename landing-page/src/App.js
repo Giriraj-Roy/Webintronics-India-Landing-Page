@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
+import Footer from './components/Footer';
 import Details from './details/Details';
-import Scooter from './details/Scooter';
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
       </Routes> */}
       {/* <Scooter/> */}
       <Details/>
+      <Footer/>
     </React.Fragment>
   )
 }
